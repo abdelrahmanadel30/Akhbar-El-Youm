@@ -1,0 +1,131 @@
+@media (max-width: 1199px) and (min-width:740px) {
+        .qualifications {
+                padding: 19px;
+        }
+        .qualifications ul li {
+                font-size: 15px;
+        }
+        .qualifications span {
+                font-size: 15px;
+                display: block;
+        }
+}
+
+/* For Screen Width From : 992 Px To 1199 PX */
+
+@media (max-width: 1199px) and (min-width:992px) {}
+
+/* For Screen Width From : 768 Px To 992 PX */
+
+@media (max-width: 992px) and (min-width:769px) {
+        .Department-Projects .Department-list li {
+                margin-top: 2%;
+        }
+        .projcet-details .more-info {
+                text-align: left;
+                padding-top: 15px;
+        }
+        .projcet-details hr {
+                display: none;
+        }
+        .Heads-of-Departments .head-blog span {
+                font-size: 15px;
+        }
+        .Heads-of-Departments .head-blog ul li {
+                font-size: 15px;
+                margin-left: 2%;
+        }
+        .Department-list li {
+                margin-top: 2%;
+        }
+}
+
+/* For Screen Width From : 577 Px To 768 PX */
+
+@media (max-width: 768px) and (min-width:577px) {
+        .Department-Projects .Department-list {
+                left: 50%;
+        }
+        .Department-Projects .Department-list li {
+                margin-top: 2%;
+                padding-top: 15px;
+        }
+        .projcet-details .more-info {
+                text-align: left;
+                padding-top: 15px;
+        }
+        .projcet-details hr {
+                display: none;
+        }
+        .Heads-of-Departments .head-blog {
+                text-align: center;
+        }
+        .qualifications span {
+                display: block;
+        }
+        .head-blog hr {
+                display: none;
+        }
+        .Heads-of-Departments .head-blog img {
+                width: 100%;
+                height: 200px;
+        }
+        .Department-list li {
+                margin-top: 2%;
+        }
+        .list-profile {
+                margin-top: 4%;
+        }
+}
+
+/* For Screen Width From : 100 Px To 576 PX */
+
+@media (max-width: 576px) and (min-width:100px) {
+        .projcet-details .more-info {
+                text-align: left;
+                padding-top: 15px;
+        }
+        .projcet-details hr {
+                display: none;
+        }
+        .Other-projects {
+                left: 15%;
+        }
+        .list-links {
+                display: none;
+        }
+        .Department-list li {
+                margin-top: 2%;
+        }
+        .Heads-of-Departments .head-blog {
+                text-align: center;
+        }
+        .qualifications span {
+                display: block;
+        }
+        .head-blog hr {
+                display: none;
+        }
+        .Heads-of-Departments .head-blog img {
+                width: 100%;
+                height: 200px;
+        }
+        .about-library .more-information {
+                text-align: center;
+        }
+        .list-profile {
+                margin-top: 4%;
+        }
+}
+
+/* Microsoft EdgeV13&14 CSS styles go here */
+
+@supports (-ms-ime-align: auto) {}
+
+/* Microsoft EdgeV13 CSS styles go here */
+
+@supports (-ms-accelerator: true) {}
+
+/* IE10 & IE11 CSS styles go here */
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active) {}

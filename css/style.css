@@ -1,0 +1,2177 @@
+body {
+        padding: 0;
+        margin: 0;
+        overflow-x: hidden !important;
+}
+
+/* ///// ///// ///// ///// /////  //-- Fonts --//  ///// ///// ///// ///// /////  */
+
+@font-face {
+        font-family: 'changamd';
+        src: url('../fonts/Changa-Medium.eot');
+        src: url('../fonts/Changa-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/Changa-Medium.woff2') format('woff2'), url('../fonts/Changa-Medium.woff') format('woff'), url('../fonts/Changa-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+}
+
+@font-face {
+        font-family: 'cairobold';
+        src: url('../fonts/Cairo-Bold.eot');
+        src: url('../fonts/Cairo-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/Cairo-Bold.woff2') format('woff2'), url('../fonts/Cairo-Bold.woff') format('woff'), url('../fonts/Cairo-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+}
+
+@font-face {
+        font-family: 'cairolight';
+        src: url('../fonts/Cairo-Light.eot');
+        src: url('../fonts/Cairo-Light.eot?#iefix') format('embedded-opentype'), url('../fonts/Cairo-Light.woff2') format('woff2'), url('../fonts/Cairo-Light.woff') format('woff'), url('../fonts/Cairo-Light.ttf') format('truetype');
+        font-weight: 300;
+        font-style: normal;
+}
+
+@font-face {
+        font-family: 'cairoreg';
+        src: url('../fonts/Cairo-Regular.eot');
+        src: url('../fonts/Cairo-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Cairo-Regular.woff2') format('woff2'), url('../fonts/Cairo-Regular.woff') format('woff'), url('../fonts/Cairo-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+        font-family: 'cairosemi';
+        src: url('../fonts/Cairo-SemiBold.eot');
+        src: url('../fonts/Cairo-SemiBold.eot?#iefix') format('embedded-opentype'), url('../fonts/Cairo-SemiBold.woff2') format('woff2'), url('../fonts/Cairo-SemiBold.woff') format('woff'), url('../fonts/Cairo-SemiBold.ttf') format('truetype');
+        font-weight: 600;
+        font-style: normal;
+}
+
+@font-face {
+        font-family: 'azothin';
+        src: url('../fonts/AzoSans-Thin.eot');
+        src: url('../fonts/AzoSans-Thin.eot?#iefix') format('embedded-opentype'), url('../fonts/AzoSans-Thin.woff2') format('woff2'), url('../fonts/AzoSans-Thin.woff') format('woff'), url('../fonts/AzoSans-Thin.ttf') format('truetype');
+        font-weight: 100;
+        font-style: normal;
+}
+
+@font-face {
+        font-family: 'azoreg';
+        src: url('../fonts/AzoSans-Regular.eot');
+        src: url('../fonts/AzoSans-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/AzoSans-Regular.woff2') format('woff2'), url('../fonts/AzoSans-Regular.woff') format('woff'), url('../fonts/AzoSans-Regular.ttf') format('truetype');
+        font-weight: normal;
+        font-style: normal;
+}
+
+@font-face {
+        font-family: 'azomd';
+        src: url('../fonts/AzoSans-Medium.eot');
+        src: url('../fonts/AzoSans-Medium.eot?#iefix') format('embedded-opentype'), url('../fonts/AzoSans-Medium.woff2') format('woff2'), url('../fonts/AzoSans-Medium.woff') format('woff'), url('../fonts/AzoSans-Medium.ttf') format('truetype');
+        font-weight: 500;
+        font-style: normal;
+}
+
+@font-face {
+        font-family: 'azobold';
+        src: url('../fonts/AzoSans-Bold.eot');
+        src: url('../fonts/AzoSans-Bold.eot?#iefix') format('embedded-opentype'), url('../fonts/AzoSans-Bold.woff2') format('woff2'), url('../fonts/AzoSans-Bold.woff') format('woff'), url('../fonts/AzoSans-Bold.ttf') format('truetype');
+        font-weight: bold;
+        font-style: normal;
+}
+
+/* ///// ///// ///// ///// /////  //-- Fonts --//  ///// ///// ///// ///// /////  */
+
+/* ///// ///// ///// ///// /////  //-- Mahmoud Hamdy Style --//  ///// ///// ///// ///// /////  */
+
+/* ///// ///// /////  //-- Home --//  ///// ///// /////  */
+
+/* /////  //-- Header --//  /////  */
+
+.akhbar_header_info {
+        background: rgb(34, 34, 34);
+        padding: 10px;
+        box-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+        border-radius: 0;
+}
+
+.akhbar_header_info .header_info .connect_info .question_social_info {
+        padding: 0;
+        margin: 0;
+        list-style: none;
+}
+
+.akhbar_header_info .header_info .connect_info .question_social_info li {
+        display: inline-block;
+}
+
+.akhbar_header_info .header_info .connect_info .question_social_info li a {
+        color: rgb(252, 186, 46);
+        font-family: 'cairosemi';
+        text-decoration: none;
+        transition: all ease-out 0.3s;
+}
+
+.akhbar_header_info .header_info .connect_info .question_social_info li:hover a {
+        color: rgb(0, 173, 239);
+}
+
+.akhbar_header_info .header_info .connect_info .question_social_info .questions {
+        margin-right: 2%;
+        transition: all ease-out 0.3s;
+}
+
+.akhbar_header_info .header_info .connect_info .question_social_info .social_info a {
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        background: #fff;
+        text-align: center;
+        border-radius: 50%;
+        color: #fff;
+        font-size: 10pt;
+        line-height: 2.1;
+}
+
+.akhbar_header_info .header_info .connect_info .question_social_info .social_info.face a {
+        background: #3b5999;
+}
+
+.akhbar_header_info .header_info .connect_info .question_social_info .social_info.link a {
+        background: #0077B5;
+}
+
+.akhbar_header_info .header_info .connect_info .question_social_info .social_info.gmail a {
+        background: #dd4b39;
+}
+
+.akhbar_header_info .header_info .connect_info .question_social_info .akhbar_phone {
+        font-family: 'cairosemi';
+        color: #fff;
+        margin-left: 2%;
+        padding: 5px;
+        border-radius: 3px;
+        transition: all ease-out 0.3s;
+}
+
+.akhbar_header_info .header_info .connect_info .question_social_info .akhbar_phone:hover {
+        background: rgba(255, 255, 255, 0.07);
+}
+
+.akhbar_header_info .header_info .connect_info .question_social_info .akhbar_phone i {
+        transform: rotateZ(90deg);
+}
+
+.akhbar_header_info .header_info .connect_info .question_social_info .akhbar_phone .number {
+        display: inline-block;
+        margin-left: 10px;
+}
+
+.akhbar_header_info .header_info .login_page .login {
+        color: rgb(252, 186, 46);
+        font-family: 'cairosemi';
+        text-decoration: none;
+        transition: all ease-out 0.3s;
+}
+
+.akhbar_header_info .header_info .login_page .login:hover {
+        color: rgb(0, 173, 239);
+}
+
+/* /////  //-- Header --//  /////  */
+
+/* /////  //-- NavBar --//  /////  */
+
+.akhbar_navbar {
+        text-align: center;
+        background: #fff;
+        padding: 2%;
+}
+
+.akhbar_navbar_links {
+        box-shadow: 0px 1px 4px -2px rgba(0, 0, 0, 0.43);
+}
+
+.akhbar_navbar .akhbar_logo a {
+        display: block;
+        height: 150px;
+        width: 150px;
+        margin: 0 auto;
+        margin-bottom: 3%;
+}
+
+.akhbar_navbar .akhbar_logo a img {
+        width: 100%;
+}
+
+.akhbar_navbar .home_page_structure .home_page_content {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-family: 'cairosemi';
+}
+
+.akhbar_navbar .home_page_structure .home_page_content li {
+        display: inline-block;
+        margin-right: 3%;
+        padding: 1%;
+        background: rgb(245, 245, 245);
+        border-radius: 2px;
+        cursor: pointer;
+        color: #222222;
+        transition: all ease-out 0.3s;
+}
+
+.akhbar_navbar .home_page_structure .home_page_content li a {
+        color: #222222;
+        text-decoration: none;
+        transition: all ease-out 0.3s;
+}
+
+.akhbar_navbar .home_page_structure .home_page_content li:hover {
+        color: #fcba2e;
+        background: rgb(34, 34, 34);
+}
+
+.akhbar_navbar .home_page_structure .home_page_content li:hover a {
+        color: #fcba2e;
+}
+
+/* /////  //-- NavBar --//  /////  */
+
+/* /////  //-- Future View & Career Path --//  /////  */
+
+.future_view {
+        padding: 5% 2%;
+        background-image: url('../img/future_view.jpg');
+        position: relative;
+        background-size: cover;
+}
+
+.future_view::before {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: linear-gradient(to bottom, rgb(34, 34, 34) 0%, rgb(34, 34, 34) 2%, rgba(34, 34, 34, 0.69) 20%, rgba(34, 34, 34, 0.1) 40%, rgba(34, 34, 34, 0) 100%);
+}
+
+.future_view::after {
+        content: '';
+}
+
+.future_view .start_message {
+        font-size: 38pt;
+        color: #fff;
+        position: relative;
+        margin: 2% 0;
+        font-family: 'azothin';
+        margin-bottom: 4%;
+}
+
+.future_view .start_message .another_text {
+        display: block;
+        font-size: 54pt;
+        margin-top: 1%;
+        ef;
+        font-family: 'Cairoreg';
+}
+
+.future_view .web_university_services .service {
+        text-align: center;
+}
+
+.future_view .web_university_services .service .content {
+        display: inline-block;
+        background: rgba(6, 6, 6, 0.5);
+        width: 80%;
+        border-radius: 2px;
+        text-align: center;
+        padding: 6% 0;
+        text-decoration: none;
+        margin: 0 auto;
+        border: 2px solid rgba(255, 255, 255, 0);
+        transition: all ease-out 0.3s;
+        cursor: pointer;
+}
+
+.future_view .web_university_services .service .content:hover {
+        border: 2px solid rgb(253, 182, 8);
+}
+
+.future_view .web_university_services .service .content i {
+        color: #fdb608;
+        display: block;
+        font-size: 50pt;
+        margin-bottom: 4%;
+}
+
+.future_view .web_university_services .service .content .service_name {
+        font-family: 'azoreg';
+        color: #fff;
+        font-size: 14pt;
+        display: inline-block;
+        margin-top: 10%;
+}
+
+.blur {
+        filter: blur(10px);
+}
+
+.career_path {
+        position: fixed;
+        width: 100%;
+        height: 100%;
+        left: 0;
+        top: 0;
+        background: rgba(34, 34, 34, 0.9);
+        z-index: 99999999;
+        overflow-y: overlay;
+        display: none;
+}
+
+.career_path .career_path_header {
+        background: #222;
+        height: 100px;
+}
+
+.career_path .career_path_header .web_logo {
+        width: 120px;
+        height: 120px;
+        position: absolute;
+        background: #222;
+        border-radius: 50%;
+        text-align: center;
+        left: 15%;
+        top: 1%;
+}
+
+.career_path .career_path_header .web_logo img {
+        width: 80%;
+        opacity: 0.8;
+}
+
+.career_path .career_path_header .career_path_close {
+        position: absolute;
+        right: 5%;
+        color: rgb(255, 255, 255);
+        font-size: 24pt;
+        top: 4%;
+        cursor: pointer;
+}
+
+.career_path .career_path_content {
+        width: 70%;
+        margin: 5% auto;
+}
+
+.career_path .career_path_content .paths_content {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+}
+
+.career_path .career_path_content .paths_content li {
+        color: #fff;
+        font-family: 'cairosemi';
+        font-size: 16pt;
+        padding: 2%;
+        border: 1px solid rgba(255, 255, 255, 0.1);
+        border-width: 1px 0;
+        margin-bottom: 1%;
+        background: rgba(255, 255, 255, 0.02);
+        border-radius: 2px;
+        transition: all ease-out 0.3s;
+        cursor: pointer;
+        position: relative;
+}
+
+.career_path .career_path_content .paths_content li.active {
+        background: rgba(255, 255, 255, 0);
+        border: none;
+        font-family: 'azothin';
+        font-size: 30pt;
+        position: relative;
+        cursor: auto;
+        padding: 0;
+}
+
+.career_path .career_path_content .paths_content li.active:hover {
+        background: transparent;
+        color: #fff;
+}
+
+.career_path .career_path_content .paths_content li.active i {
+        display: none;
+}
+
+.career_path .career_path_content .paths_content li.deactive {
+        display: none;
+}
+
+.career_path .career_path_content .paths_content li:hover {
+        background: rgb(252, 186, 46);
+        color: #222;
+}
+
+.career_path .career_path_content .paths_content li:hover {
+        background: rgb(252, 186, 46);
+        color: #222;
+}
+
+.career_path .career_path_content .paths_content li i {
+        position: absolute;
+        top: 37%;
+        right: 4%;
+        transition: all ease-out 0.3s;
+}
+
+.career_path .career_path_content .paths_content li:hover i {
+        right: 5%;
+}
+
+.career_path .career_path_content .college_paths {
+        display: none;
+}
+
+.career_path .career_path_content .college_paths.active {
+        display: block;
+}
+
+.career_path .career_path_content .college_paths .back_to_colleges {
+        display: inline-block;
+        position: relative;
+        margin-bottom: 2%;
+        color: #fff;
+        background: rgba(34, 34, 34, 0.5);
+        padding: 1% 15px;
+        border-radius: 2px;
+        cursor: pointer;
+        font-size: 22pt;
+        transition: all ease-out 0.3s;
+}
+
+.career_path .career_path_content .college_paths .back_to_colleges:hover {
+        background: rgba(255, 255, 255, 0.5);
+        color: rgb(34, 34, 34);
+}
+
+.career_path .career_path_content .college_paths .college_paths_content {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+}
+
+.career_path .career_path_content .college_paths .college_paths_content li a {
+        color: #fcba2e;
+        font-family: 'azomd';
+        text-decoration: none;
+        display: block;
+        padding: 1%;
+        background: rgba(255, 255, 255, 0.03);
+        margin-bottom: 1%;
+        border-radius: 2px;
+        transition: all ease-out 0.3s;
+        position: relative;
+}
+
+.career_path .career_path_content .college_paths .college_paths_content li a i {
+        position: absolute;
+        top: 30%;
+        right: 4%;
+        transition: all ease-out 0.3s;
+}
+
+.career_path .career_path_content .college_paths .college_paths_content li:hover a i {
+        right: 5%;
+}
+
+.career_path .career_path_content .college_paths .college_paths_content li:hover a {
+        color: #00adef;
+        padding-left: 2%;
+}
+
+/* /////  //-- Future View & Career Path --//  /////  */
+
+/* /////  //-- News --//  /////  */
+
+.akhbar_home_news {
+        background: url(../img/news_background.jpg);
+        padding: 6%;
+        position: relative;
+        background-size: cover;
+}
+
+.akhbar_home_news::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.7);
+}
+
+.akhbar_home_news .news_heading {
+        margin-bottom: 6%;
+}
+
+.akhbar_home_news .news_heading .news_heading_text {
+        position: relative;
+        margin-bottom: 0;
+        color: #fff;
+        font-family: 'azothin';
+        font-size: 36pt;
+}
+
+.line_sperate_bottom {
+        display: inline-block;
+        width: 40px;
+        height: 1px;
+        background: rgb(255, 255, 255);
+        margin: 0;
+        position: relative;
+}
+
+.akhbar_home_news .news_slider .news_slider_control {
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.3);
+        padding: 1%;
+        position: absolute;
+        top: -20%;
+        border: 1px solid rgba(255, 255, 255, 0);
+        color: rgb(0, 0, 0);
+        cursor: pointer;
+        border-radius: 2px;
+        transition: all ease-out 0.3s;
+}
+
+.akhbar_home_news .news_slider .news_slider_control:hover {
+        background: rgba(252, 186, 46, 0.5);
+}
+
+.akhbar_home_news .news_slider .news_slider_prev {
+        right: 60px;
+}
+
+.akhbar_home_news .news_slider .news_slider_next {
+        right: 15px;
+}
+
+.akhbar_home_news .news_all_content {
+        position: relative;
+}
+
+.akhbar_home_news .news_all_content .all_news_show .news_content {
+        outline: none;
+        user-select: text;
+}
+
+.akhbar_home_news .news_all_content .all_news_show .news_content .news_card {
+        border-radius: 0;
+        border: none;
+        background: transparent;
+}
+
+.akhbar_home_news .news_all_content .all_news_show .news_content .news_card .news_img {
+        border-radius: 0;
+}
+
+.akhbar_home_news .news_all_content .all_news_show .news_content .news_card .news_body {
+        position: relative;
+        text-align: center;
+}
+
+.akhbar_home_news .news_all_content .all_news_show .news_content .news_card .news_body .news_date_category {
+        position: absolute;
+        background: #fcba2e;
+        padding: 1%;
+        left: 30%;
+        top: -25%;
+        color: #222222;
+        font-family: 'cairoreg';
+        transition: all ease-out 0.3s;
+}
+
+.akhbar_home_news .news_all_content .all_news_show .news_content .news_card .news_body .news_date_category .category {
+        display: inline-block;
+        margin-right: 10px;
+}
+
+.akhbar_home_news .news_all_content .all_news_show .news_content .news_card .news_body .news_text {
+        color: #00adef;
+        font-family: 'cairosemi';
+        text-decoration: none;
+        transition: all ease-out 0.3s;
+        background: rgba(255, 255, 255, 0.09);
+        display: inline-block;
+        padding: 2%;
+        border-radius: 2px;
+}
+
+.akhbar_home_news .news_all_content .all_news_show .news_content .news_card .news_body .news_text:hover {
+        color: rgb(252, 186, 46);
+}
+
+/* /////  //-- News --//  /////  */
+
+/* /////  //-- About --//  /////  */
+
+.about_university {
+        padding: 4% 0;
+}
+
+.about_university .story_content {
+        border: 2px solid #fcba2e;
+        padding: 4%;
+        border-width: 2px 0px 0px 2px;
+}
+
+.about_university .story_content .story_heading {
+        font-family: 'azothin';
+        font-size: 36pt;
+        margin-bottom: 0;
+}
+
+.about_university .story_content .line_sperate_bottom {
+        background: rgb(252, 186, 46);
+}
+
+.about_university .story_content .about_content {
+        margin: 3% 0;
+        text-align: justify;
+        font-family: 'cairolight';
+        font-size: 13pt;
+}
+
+.about_university .story_content .read_about_page {
+        display: inline-block;
+        background: #00adef;
+        color: #fff;
+        padding: 1% 2%;
+        text-decoration: none;
+        font-family: 'cairosemi';
+        transition: all ease-out 0.3s;
+}
+
+.about_university .story_content .read_about_page:hover {
+        color: rgb(252, 186, 46);
+        background: rgb(34, 34, 34);
+}
+
+/* /////  //-- About --//  /////  */
+
+/* /////  //-- Events --//  /////  */
+
+.university_events {
+        background: #222;
+        padding: 4%;
+        position: relative;
+}
+
+.university_events::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../img/event_background.jpg');
+        background-size: cover;
+        opacity: 0.1;
+        filter: blur(4px);
+}
+
+.university_events .all_events_content {
+        position: relative;
+}
+
+.university_events .all_events_content .events_text {
+        color: #fff;
+        font-family: 'azothin';
+        font-size: 50pt;
+        margin: 0;
+}
+
+.university_events .all_events_content .view_all_events {
+        position: absolute;
+        font-family: 'cairosemi';
+        color: #fff;
+        border: 1px solid #fff;
+        padding: 0.5% 2%;
+        text-decoration: none;
+        transition: all ease-out 0.3s;
+        right: 0;
+}
+
+.university_events .all_events_content .view_all_events:hover {
+        color: #fcba2e;
+        border-color: #fcba2e;
+}
+
+.university_events .all_events_content .events_content {
+        color: #fff;
+        margin-top: 6%;
+}
+
+.university_events .all_events_content .events_content .event {
+        border: 1px solid rgba(255, 255, 255, 0.2);
+        padding: 2% 0;
+        border-width: 1px 0;
+        margin: 2% 0;
+}
+
+.university_events .all_events_content .events_content .event .event_date {
+        text-align: center;
+}
+
+.university_events .all_events_content .events_content .event .event_date .day {
+        display: block;
+        font-size: 60pt;
+        color: #fcba2e;
+        font-family: 'azothin';
+}
+
+.university_events .all_events_content .events_content .event .event_date .month {
+        color: #fcba2e;
+        font-family: 'cairosemi';
+}
+
+.university_events .all_events_content .events_content .event .event_info .event_title {
+        font-family: 'changamd';
+        margin-bottom: 0;
+}
+
+.university_events .all_events_content .events_content .event .event_info .event_duration {
+        font-family: 'cairolight';
+        color: rgba(255, 255, 255, 0.38);
+        font-size: 10pt;
+}
+
+.university_events .all_events_content .events_content .event .event_info .event_duration .start_time {
+        display: inline-block;
+        margin-right: 1%;
+}
+
+.university_events .all_events_content .events_content .event .event_info .event_description {
+        font-family: 'cairoreg';
+        margin-top: 4%;
+        color: rgba(255, 255, 255, 0.7);
+}
+
+.university_events .all_events_content .events_content .event .event_img img {
+        width: 100%;
+}
+
+/* /////  //-- Events --//  /////  */
+
+/* /////  //-- Departments --//  /////  */
+
+.university_departments {
+        padding: 4% 0;
+        position: relative;
+}
+
+.university_departments::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../img/departments_background.jpg');
+        background-size: cover;
+        opacity: 0.1;
+        filter: blur(4px);
+}
+
+.university_departments .all_departments_content {
+        position: relative;
+}
+
+.university_departments .all_departments_content .department_heading {
+        margin-bottom: 4%;
+}
+
+.university_departments .all_departments_content .department_heading .department_text {
+        font-family: 'azothin';
+        font-size: 40pt;
+}
+
+.university_departments .all_departments_content .department_heading .line_sperate_bottom {
+        background: #000;
+}
+
+.university_departments .all_departments_content .departments_content .department .department_card .department_body {
+        position: relative;
+        text-align: center;
+        padding: 5%;
+}
+
+.university_departments .all_departments_content .departments_content .department .department_card .department_body .department_leader {
+        position: absolute;
+        left: 30%;
+        top: -16%;
+}
+
+.university_departments .all_departments_content .departments_content .department .department_card .department_body .department_leader .leader_img {
+        width: 45px;
+        height: 45px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto;
+}
+
+.university_departments .all_departments_content .departments_content .department .department_card .department_body .department_leader .leader_img img {
+        width: 100%;
+}
+
+.university_departments .all_departments_content .departments_content .department .department_card .department_body .department_leader .leader_name {
+        font-family: 'cairoreg';
+        color: rgba(0, 0, 0, 0.59);
+}
+
+.university_departments .all_departments_content .departments_content .department .department_card .department_body .department_name {
+        font-family: 'cairosemi';
+        font-size: 16pt;
+        margin-top: 50px;
+        margin-bottom: 30px;
+}
+
+.university_departments .all_departments_content .departments_content .department .department_card .department_body .line_sperate_bottom {
+        display: block;
+        background: rgba(0, 0, 0, 0.25);
+        height: 1px;
+        width: 100%;
+        margin: 5% 0;
+}
+
+.university_departments .all_departments_content .departments_content .department .department_card .department_body .see_more_department {
+        font-family: 'cairoreg';
+        margin: 3% 0;
+        display: inline-block;
+        text-decoration: none;
+        color: #435c70;
+        transition: all ease-out 0.3s;
+}
+
+.university_departments .all_departments_content .departments_content .department .department_card .department_body .see_more_department:hover {
+        color: #fcba2e;
+}
+
+/* /////  //-- Departments --//  /////  */
+
+/* /////  //-- Doctors Comments --//  /////  */
+
+.doctors_comments {
+        padding: 4%;
+        text-align: center;
+        background: #222;
+        color: #fff;
+        position: relative;
+}
+
+.doctors_comments:before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../img/doctors_comment_background.jpg');
+        background-size: cover;
+        opacity: 0.1;
+        filter: blur(4px);
+}
+
+.doctors_comments .all_doctors_comments {
+        margin: 5%;
+}
+
+.doctors_comments .all_doctors_comments .doctors_comments_slider {
+        position: relative;
+}
+
+.doctors_comments .all_doctors_comments .doctors_comments_slider .comments_slider_control {
+        position: absolute;
+        background: rgba(255, 255, 255, 0.3);
+        padding: 1%;
+        top: -20%;
+        color: #000;
+        cursor: pointer;
+        border-radius: 2px;
+        border: 1px solid rgba(255, 255, 255, 0);
+        transition: all ease-out 0.3s;
+}
+
+.doctors_comments .all_doctors_comments .doctors_comments_slider .comments_slider_control:hover {
+        background: rgba(252, 186, 46, 0.5);
+        color: #222;
+}
+
+.doctors_comments .all_doctors_comments .doctors_comments_slider .comments_slider_prev {
+        right: 3.5%;
+}
+
+.doctors_comments .all_doctors_comments .doctors_comments_slider .comments_slider_next {
+        right: 0;
+}
+
+.doctors_comments .all_doctors_comments .doctors_comments_slider .comment {
+        user-select: text;
+        outline: none;
+}
+
+.doctors_comments .all_doctors_comments .doctors_comments_slider .comment .comment_text {
+        text-align: justify;
+        text-align-last: center;
+}
+
+.doctors_comments .all_doctors_comments .doctors_comments_slider .comment .comment_writer_img {
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+        overflow: hidden;
+        border-radius: 50%;
+        border: 2px solid #fcba2e;
+}
+
+.doctors_comments .all_doctors_comments .doctors_comments_slider .comment .comment_writer_img img {
+        width: 100%;
+}
+
+.doctors_comments .all_doctors_comments .doctors_comments_slider .comment .writer_name {
+        background: rgba(255, 255, 255, 0.1);
+        padding: 0.5%;
+        display: inline-block;
+        margin-top: 1%;
+        font-size: 10pt;
+        border-radius: 1px;
+        font-family: 'cairoreg';
+}
+
+/* /////  //-- Doctors Comments --//  /////  */
+
+/* /////  //-- Students Comments --//  /////  */
+
+.students_comments {
+        padding: 4%;
+        text-align: center;
+        position: relative;
+}
+
+.students_comments::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../img/students_comment_background.jpg');
+        opacity: 0.1;
+        filter: blur(4px);
+}
+
+.students_comments .all_students_comments {
+        position: relative;
+}
+
+.students_comments .all_students_comments .comments_heading {
+        margin-bottom: 4%;
+}
+
+.students_comments .all_students_comments .comments_heading .heading_text {
+        margin: 0;
+        font-family: 'azothin';
+        font-size: 40pt;
+}
+
+.students_comments .all_students_comments .comments_heading .line_sperate_bottom {
+        background: #000;
+        width: 100px;
+}
+
+.students_comments .all_students_comments .comments_content {
+        padding: 4%;
+        background: rgba(0, 0, 0, 0.02);
+        border-radius: 2px;
+        box-shadow: 2px 2px 1px rgba(0, 0, 0, 0.13);
+}
+
+.students_comments .all_students_comments .comments_content .content_text {
+        font-family: 'cairosemi';
+        outline: none;
+        user-select: text;
+}
+
+.students_comments .all_students_comments .comments_writer {
+        margin: 5% 0;
+        text-align: center;
+        position: relative;
+        left: 25%;
+}
+
+.students_comments .all_students_comments .comments_writer .writer_img {
+        width: 75px !important;
+        height: 75px;
+        border-radius: 50%;
+        overflow: hidden;
+        margin: 0 auto;
+        filter: grayscale(100%);
+        outline: none;
+        margin-right: 2%;
+        transition: all ease-out 0.3s;
+        cursor: pointer;
+}
+
+.students_comments .all_students_comments .comments_writer .writer_img.slick-current.slick-center {
+        filter: grayscale(0);
+        transform: scale(1.2);
+}
+
+.students_comments .all_students_comments .comments_writer .writer_img img {
+        width: 100%;
+}
+
+/* /////  //-- Students Comments --//  /////  */
+
+/* /////  //-- Map --//  /////  */
+
+.akhbar_map {
+        width: 100%;
+        height: 300px;
+        border: 2px solid #fcba2e;
+        border-width: 2px 0;
+}
+
+/* /////  //-- Map --//  /////  */
+
+/* /////  //-- Footer --//  /////  */
+
+.university_footer {
+        padding: 4%;
+        background: #222;
+        color: #fff;
+}
+
+.university_footer .university_content .about_university_content .about_name {
+        font-family: 'cairoreg';
+        font-size: 22pt;
+}
+
+.university_footer .university_content .about_university_content .about_name i {
+        display: inline-block;
+        margin-right: 2%;
+        color: rgba(255, 255, 255, 0.5);
+}
+
+.university_footer .university_content .about_university_content .about_description {
+        margin: 6% 0;
+        font-family: 'cairolight';
+        text-align: justify;
+        background: rgba(255, 255, 255, 0.02);
+        padding: 4%;
+        border-radius: 2px;
+}
+
+.university_footer .university_content .contact_university_content .contact_text {
+        font-family: 'cairoreg';
+        font-size: 22pt;
+}
+
+.university_footer .university_content .contact_university_content .contact_info {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+}
+
+.university_footer .university_content .contact_university_content .contact_info li {
+        margin-bottom: 4%;
+        font-size: 12pt;
+        font-family: 'cairolight';
+        background: rgba(255, 255, 255, 0.02);
+        padding: 2%;
+}
+
+.university_footer .university_content .contact_university_content .contact_info li i {
+        display: inline-block;
+        margin-right: 5%;
+}
+
+.university_footer .university_content .news_letter_content .newsletter_text {
+        font-family: 'cairoreg';
+        font-size: 22pt;
+}
+
+.university_footer .university_content .news_letter_content .newsletter_description {
+        margin: 6% 0;
+        font-family: 'cairolight';
+        text-align: justify;
+        background: rgba(255, 255, 255, 0.02);
+        padding: 4%;
+        border-radius: 2px;
+}
+
+.university_footer .university_content .news_letter_content .news_email_input {
+        padding: 2%;
+        border-radius: 2px;
+        width: 100%;
+        background: rgba(255, 255, 255, 0.02);
+        border: 1px solid rgba(252, 186, 46, 0.27);
+        color: #fcba2e;
+        font-family: 'cairoreg';
+        margin-bottom: 6%;
+        transition: all ease-out 0.3s;
+}
+
+.university_footer .university_content .news_letter_content .news_email_input:focus {
+        outline: none;
+}
+
+.university_footer .university_content .news_letter_content .news_email_input:focus::placeholder {
+        color: rgba(252, 186, 46, 0.5);
+}
+
+.university_footer .university_content .news_letter_content .university_social {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+}
+
+.university_footer .university_content .news_letter_content .university_social li {
+        display: inline-block;
+        margin-right: 3%;
+}
+
+.university_footer .university_content .news_letter_content .university_social li a {
+        display: inline-block;
+        background: rgba(255, 255, 255, 0.08);
+        width: 35px;
+        height: 35px;
+        text-align: center;
+        line-height: 2.2;
+        border-radius: 2px;
+        transition: all ease-out 0.3s;
+}
+
+.university_footer .university_content .news_letter_content .university_social li:hover a {
+        background: #fcba2e;
+        color: #222;
+}
+
+.university_footer .university_content .news_letter_content .university_social .face a {
+        color: #3b5999;
+}
+
+.university_footer .university_content .news_letter_content .university_social .twit a {
+        color: #55acee;
+}
+
+.university_footer .university_content .news_letter_content .university_social .link a {
+        color: #0077B5;
+}
+
+.university_footer .university_content .news_letter_content .university_social .google a {
+        color: #dd4b39;
+}
+
+.university_footer .university_content .news_letter_content .university_social .youtube a {
+        color: #cd201f;
+}
+
+/* /////  //-- Footer --//  /////  */
+
+/* ///// ///// /////  //-- Home --//  ///// ///// /////  */
+
+/* ///// ///// /////  //-- Login --//  ///// ///// /////  */
+
+.university_login {
+        padding: 6%;
+        position: relative;
+        background: rgba(25, 25, 25, 1);
+        box-shadow: inset 0 1px 3px 0px rgba(0, 0, 0, 0.5), inset 0 -1px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+.university_login::before {
+        content: '';
+}
+
+.university_login .login_style_background {
+        position: absolute;
+        left: 0;
+        top: 0;
+        background: rgb(252, 186, 46);
+        width: 100%;
+        height: 100%;
+        clip-path: polygon(100% 20%, 100% 60%, 0 80%, 0 40%);
+}
+
+.university_login .login_form_content {
+        position: relative;
+        width: 60%;
+        margin: 0 auto;
+        background: rgb(252, 186, 46);
+        padding: 6% 4%;
+        border-radius: 2px;
+        /* box-shadow: inset 1px 1px 3px rgba(0, 0, 0, 0.1), inset -1px -1px 3px rgba(0, 0, 0, 0.1); */
+}
+
+.university_login .login_form_content .login_heading {
+        margin-bottom: 6%;
+}
+
+.university_login .login_form_content .login_heading .text {
+        font-family: 'azothin';
+        font-size: 40pt;
+        margin-bottom: 0;
+}
+
+.university_login .login_form_content .login_heading .line_sperate_bottom {
+        background: #000;
+}
+
+.university_login .login_form_content form {}
+
+.university_login .login_form_content form .login_group {}
+
+.university_login .login_form_content form .login_group .login_input {
+        border-radius: 2px;
+        border: none;
+        background: #222;
+        box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.1), inset 0px -1px 3px rgba(0, 0, 0, 0.1);
+        padding: 1.5% 4%;
+        font-family: 'cairosemi';
+        transition: all ease-out 0.3s;
+        color: rgb(252, 186, 46);
+}
+
+.university_login .login_form_content form .login_group .login_input:hover {}
+
+.university_login .login_form_content form .login_group .login_input:focus {
+        background: #fcba2e;
+        color: #222;
+}
+
+.university_login .login_form_content form .login_group .login_input::placeholder {
+        color: rgba(252, 186, 46, 0.5);
+}
+
+.university_login .login_form_content form .login_group .login_input:focus::placeholder {
+        color: rgba(34, 34, 34, 0.5);
+}
+
+.university_login .login_form_content form .login_submit {
+        background: #fcba2e;
+        border: none;
+        padding: 10px 4%;
+        border-radius: 2px;
+        margin-top: 4%;
+        color: #222;
+        font-family: 'cairosemi';
+        transition: all ease-out 0.3s;
+        /* border: 1px solid #222; */
+        box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.3);
+}
+
+.university_login .login_form_content form .login_submit:hover {
+        color: rgb(252, 186, 46);
+        background: #222;
+}
+
+.university_login .login_form_content form .login_submit:focus {}
+
+/* ///// ///// /////  //-- Login --//  ///// ///// /////  */
+
+/* ///// ///// ///// ///// /////  //-- Mahmoud Hamdy Style --//  ///// ///// ///// ///// /////  */
+
+/* ///// ///// ///// ///// /////  //-- Kareem Adel Style --//  ///// ///// ///// ///// /////  */
+
+.department-projects {
+        padding: 4%;
+        position: relative;
+}
+
+.department-projects::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../img/projects_page_background.jpg');
+        filter: blur(8px);
+        opacity: 0.1;
+        background-size: cover;
+}
+
+.department-projects .department_heading_text, .department-projects .staff_heading {
+        font-family: 'azothin';
+        font-size: 40pt;
+        position: relative;
+        margin-bottom: 4%;
+}
+
+.Department-list {
+        padding: 0;
+        text-align: center;
+        position: relative;
+}
+
+.Department-list li {
+        display: inline-block;
+        text-align: center;
+}
+
+.Department-list li {
+        display: inline-block;
+        transition: .2s all ease-in-out;
+        padding: 1% 2%;
+        cursor: pointer;
+        border-radius: 2px;
+        box-shadow: inset 0 0 2px -1px rgba(0, 0, 0, 0.44);
+        font-family: 'cairoreg';
+        text-transform: capitalize;
+}
+
+.Department-list li:hover {
+        background-color: #222;
+        color: #fcba2e;
+}
+
+.Department-list .active {
+        background-color: #222;
+        color: #fcba2e;
+}
+
+.department-projects .Project-Describe {
+        text-align: center;
+        margin: 6% 0;
+        box-shadow: inset 0 0 4px -1px rgba(0, 0, 0, 0.43);
+        border-radius: 2px;
+        transition: all ease-out 0.3s;
+}
+
+.department-projects .Project-Describe img {
+        width: 100%;
+        height: 200px;
+}
+
+.department-projects .Project-Describe p {
+        padding: 2% 0;
+        font-family: 'cairoreg';
+        margin: 0;
+        text-transform: capitalize;
+}
+
+.department-projects .Project-Describe a {
+        text-decoration: none;
+        transition: .2s all ease-in-out;
+        display: block;
+        font-family: 'cairosemi';
+        border-top: 1px solid rgba(0, 0, 0, 0.07);
+        padding: 2% 0;
+        font-size: 10pt;
+        background: rgba(34, 34, 34, 0.04);
+        box-shadow: inset 0px 0px 2px -1px rgba(0, 0, 0, 0.35);
+}
+
+.department-projects .Project-Describe a:hover {
+        color: #ffb106;
+}
+
+.project_page_content {
+        position: relative;
+}
+
+.project_page_content::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../img/project_page_background.jpg');
+        filter: blur(8px);
+        opacity: 0.1;
+}
+
+.description-project {
+        text-align: center;
+        padding: 4%;
+        padding-bottom: 0;
+}
+
+.description-project .image-project {}
+
+.description-project .image-project img {
+        width: 100%;
+}
+
+.description-project .image-project p {
+        font-size: 16pt;
+        cursor: pointer;
+        color: #00adef;
+        font-family: 'cairosemi';
+        padding: 1% 0;
+        border-radius: 2px;
+        width: 50%;
+        margin: 0 auto;
+}
+
+.description-project .image-project .doctor-img {
+        height: 70px;
+        width: 70px;
+        border-radius: 50%;
+        margin-bottom: 1%;
+        display: block;
+        margin: 0 auto;
+}
+
+.description-project .image-project span {
+        display: inline-block;
+        font-size: 12pt;
+        font-family: 'azoreg';
+        background: rgb(34, 34, 34);
+        color: #fcba2e;
+        padding: 0.5%;
+        margin-top: 1%;
+        border-radius: 2px;
+}
+
+.toggle {
+        display: none;
+}
+
+.list-links ul {
+        box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.1);
+}
+
+.list-links ul li {
+        list-style: none;
+        text-align: left;
+        background-color: rgb(255, 255, 255);
+        padding: 5%;
+        cursor: pointer;
+        transition: all ease-out 0.3s;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.list-links ul li:hover {
+        background-color: rgb(34, 34, 34);
+}
+
+.list-links ul li a {
+        text-decoration: none;
+        color: #00adef;
+        font-size: 12pt;
+        font-family: 'cairosemi';
+}
+
+.list-links ul li:hover a {}
+
+.list-links ul li.active {
+        background-color: #222;
+}
+
+.list-links ul li.active a {
+        color: #fcba2e;
+}
+
+.project_description_content {
+        padding: 4%;
+}
+
+.projcet-details {
+        position: relative;
+        box-shadow: inset 0 0 2px rgba(0, 0, 0, 0.33);
+        padding: 4%;
+}
+
+.projcet-details .more-info {
+        font-size: 12pt;
+        font-family: 'cairoreg';
+        line-height: 2;
+        text-align: justify;
+}
+
+.projcet-details span {
+        font-size: 40pt;
+        font-family: 'azothin';
+        text-transform: capitalize;
+        display: inline-block;
+        margin-bottom: 3%;
+}
+
+.projcet-details .other-projects {
+        display: inline-block;
+        background: #00adef;
+        color: #fff;
+        font-family: 'cairoreg';
+        padding: 1%;
+        border-radius: 2px;
+        transition: all ease-out 0.3s;
+        text-decoration: none;
+}
+
+.projcet-details .other-projects:hover {
+        color: #fcba2e;
+        background: #222;
+}
+
+.personal-profile {
+        padding: 4% 0;
+}
+
+.profile .overlay-cover {
+        text-align: center;
+        width: 100px;
+        height: 100px;
+        margin: 0 auto;
+}
+
+.profile {
+        position: relative;
+}
+
+.profile .personal-img {
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.39);
+        border-radius: 50%;
+        width: 100%;
+}
+
+.job-desription, .eduction {
+        background-color: #FFF;
+}
+
+.job-desription {
+        text-align: center;
+        position: relative;
+        padding: 2%;
+        margin: 2% 0;
+        box-shadow: inset 0 2px 2px -1px rgba(0, 0, 0, 0.1), inset 2px 0px 2px -1px rgba(0, 0, 0, 0.1);
+}
+
+.job-desription p {
+        font-size: 16pt;
+        color: #000;
+        margin: 0;
+        font-family: 'cairosemi';
+}
+
+.job-desription span {
+        font-size: 14pt;
+        cursor: pointer;
+        font-family: 'cairoreg';
+}
+
+.job-desription span, .job-desription i {}
+
+.job-desription i {
+        cursor: pointer;
+        font-size: 16px;
+        margin-left: 8px;
+}
+
+.job-desription .More-info {
+        display: none;
+        font-family: 'azoreg';
+        font-size: 12pt;
+        padding: 1% 0;
+        background: rgba(0, 0, 0, 0.02);
+        color: #435c70;
+}
+
+.eduction, .job-desription, .profile {}
+
+.eduction {
+        padding-left: 15px;
+        background: rgb(255, 255, 255);
+        margin-bottom: 1%;
+        border-radius: 2px;
+        box-shadow: 0px 0px 2px #0000004f;
+        position: relative;
+}
+
+.eduction span {
+        cursor: pointer;
+        padding: 2% 0;
+        font-family: 'cairoreg';
+        display: inline-block;
+        margin-right: 2;
+}
+
+.eduction .universtiy, .eduction .building {
+        margin-top: 7%;
+        font-size: 40pt;
+        color: #222;
+}
+
+.eduction i {}
+
+.eduction i, .eduction span {
+        color: #222;
+}
+
+.eduction i {
+        position: absolute;
+        top: 20px;
+        right: 4%;
+}
+
+.eduction ul li {
+        list-style: none;
+        vertical-align: middle;
+        font-family: 'cairosemi';
+        margin-bottom: 2%;
+        padding: 2%;
+        background: rgba(0, 0, 0, 0.05);
+        width: 90%;
+        border-radius: 2px;
+        text-transform: capitalize;
+}
+
+.show {
+        display: none;
+}
+
+.eduction .list-accouts {
+        padding: 0px;
+        margin-top: 4%;
+}
+
+.eduction .list-accouts li a {
+        font-size: 12pt;
+        text-decoration: none;
+        margin-left: 3%;
+        color: #000;
+        transition: .2s all ease-in-out;
+        font-family: 'cairosemi';
+}
+
+.eduction .list-accouts li .fa-linkedin, .eduction .list-accouts li .fa-yahoo, .eduction .list-accouts li .fa-facebook {
+        font-size: 23px;
+}
+
+.eduction .list-accouts li .fa-yahoo {
+        color: #4500ac
+}
+
+.eduction .list-accouts li .fa-linkedin {
+        color: #0072b5;
+}
+
+.eduction .list-accouts li i {
+        position: relative;
+        right: unset;
+        top: inherit;
+}
+
+.eduction .list-accouts li .fa-facebook {
+        color: #4167b2;
+}
+
+.list-profile {
+        position: relative;
+        text-align: center;
+        box-shadow: 0 0 4px -1px rgba(0, 0, 0, 0.2);
+}
+
+.list-profile img {
+        width: 100%;
+}
+
+.list-profile .doctors-account {
+        margin: 4% 0;
+}
+
+.list-profile .doctors-account .doctor-img {
+        height: 80px;
+        width: 80px;
+        border-radius: 50%;
+}
+
+.list-profile .doctors-account p {
+        font-size: 12pt;
+        color: #222;
+        font-family: cairosemi;
+        margin: 0;
+}
+
+.list-profile .doctors-account a {
+        color: #435c70;
+        text-decoration: none;
+        font-size: 10pt;
+        font-family: 'changamd';
+        transition: all ease-out 0.3s;
+}
+
+.list-profile .doctors-account a:hover {
+        color: #fcba2e;
+}
+
+.list-profile .all_staff {
+        display: block;
+        background: #00adef;
+        color: #fff;
+        text-decoration: none;
+        padding: 4% 0;
+        font-family: 'cairosemi';
+        transition: all ease-out 0.3s;
+}
+
+.list-profile .all_staff:hover {
+        color: #fcba2e;
+        background: #222;
+}
+
+.Statistics {
+        text-align: center;
+        padding: 4%;
+        background: #222;
+        position: relative;
+}
+
+.Statistics::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../img/statistics_background.jpg');
+        background-size: cover;
+        opacity: 0.1;
+        filter: blur(8px);
+}
+
+.Statistics .statistics_heading {
+        font-family: 'azothin';
+        font-size: 40pt;
+        margin-bottom: 4%;
+        color: #fff;
+        position: relative;
+}
+
+.Statistics h1 {
+        font-size: 40pt;
+        color: #000;
+}
+
+.rate {
+        box-shadow: 1px 1px 3px 0px rgba(0, 0, 0, 0.1);
+        padding: 4% 0;
+        background: #fff;
+        border-radius: 2px;
+}
+
+.rate i {
+        color: #222;
+        font-size: 50pt;
+}
+
+.rate span {
+        display: block;
+        color: #fcba2e;
+        font-size: 30pt;
+        font-family: 'changamd';
+        margin: 4% 0;
+}
+
+.rate .Department {
+        color: #000;
+        font-size: 14pt;
+        font-family: 'cairobold';
+}
+
+.Heads-of-Departments {
+        padding: 4% 0;
+        position: relative;
+}
+
+.Heads-of-Departments::before {
+        content: '';
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-image: url('../img/heads_departments_background.jpg');
+        opacity: 0.1;
+        filter: blur(4px);
+}
+
+.Heads-of-Departments .heading_text {
+        font-family: 'azothin';
+        font-size: 40pt;
+        margin-bottom: 4%;
+        text-align: center;
+        position: relative;
+}
+
+.Heads-of-Departments .head-blog {
+        border: 1px solid #ddd;
+        margin-top: 4%;
+}
+
+.Heads-of-Departments .head-blog .head_blog_img {}
+
+.Heads-of-Departments .head-blog .head_blog_iinfo {
+        padding-left: 0;
+}
+
+.Heads-of-Departments .head-blog img {
+        width: 100%;
+}
+
+.Heads-of-Departments .head-blog h3 {
+        font-family: 'changamd';
+        padding: 2% 0;
+        border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+        color: #00adef;
+        font-size: 14pt;
+}
+
+.Heads-of-Departments .head-blog p {
+        font-family: 'cairosemi';
+        font-size: 12pt;
+        margin: 0;
+}
+
+.Heads-of-Departments .head-blog span {
+        font-family: 'cairoreg';
+        font-size: 12pt;
+        margin: 1% 0;
+        display: inline-block;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+        padding: 2% 0;
+        border-width: 1px 0;
+}
+
+.Heads-of-Departments .head-blog ul {
+        margin: 0;
+        padding: 1% 0;
+}
+
+.Heads-of-Departments .head-blog ul li {
+        display: inline-block;
+        margin-right: 2%;
+        transition: all ease-out 0.3s;
+        font-family: 'cairosemi';
+        cursor: pointer;
+}
+
+.Heads-of-Departments .head-blog ul li:hover {
+        color: rgb(0, 173, 239);
+}
+
+.Heads-of-Departments .head-blog ul li:first-of-type {
+        font-family: 'cairobold';
+        color: rgb(252, 186, 46);
+}
+
+.carousel-inner .carousel-item img {
+        width: 100%;
+}
+
+.carousel-inner .carousel-item {}
+
+.about-library {
+        padding: 4% 0;
+}
+
+.about-library .more-information {
+        text-align: left;
+}
+
+.about-library .more-information .more_information_text {
+        font-family: 'cairoreg';
+        margin: 0;
+        margin-bottom: 4%;
+}
+
+.about-library .more-information p {
+        text-align: justify;
+        line-height: 2;
+        font-size: 10pt;
+        font-family: 'cairoreg';
+        width: 90%;
+}
+
+.about-library .more-information span {
+        font-family: 'changamd';
+        font-size: 20pt;
+        margin-bottom: 4%;
+        display: inline-block;
+}
+
+.about-library .more-information ul {
+        margin-top: 4%;
+        padding: 0;
+        list-style: none;
+        margin: 0;
+}
+
+.about-library .more-information ul li {
+        font-family: 'cairoreg';
+        padding: 1%;
+        background: rgba(34, 34, 34, 0.05);
+        margin-bottom: 2%;
+        border-radius: 2px;
+        width: 90%;
+}
+
+/* ///// ///// ///// ///// /////  //-- Kareem Adel Style --//  ///// ///// ///// ///// /////  */
+
+/* ///// ///// ///// ///// /////  //-- Hazem Ibrahim Style --//  ///// ///// ///// ///// /////  */
+
+.about_page {
+        padding: 4%;
+        position: relative;
+}
+
+.about_page::before {
+        content: '';
+}
+
+.about h2 {
+        color: #000;
+        margin-bottom: 40px
+}
+
+.about .fullscreen-bg {
+        position: relative;
+}
+
+.about .academic-history>p {
+        font-family: 'cairoreg';
+        line-height: 2;
+        text-align: justify;
+        padding: 2%;
+        background: rgba(0, 0, 0, 0.01);
+        margin: 2% 0;
+        border-radius: 2px;
+}
+
+.about .basic-facts span {
+        display: inline-block;
+        background-color: #fcba2e;
+        color: #222;
+        padding: 6% 10%;
+        margin: 13px 0;
+        font-family: 'cairosemi';
+        border-radius: 2px;
+        width: 100%;
+        text-align: center;
+}
+
+.about .basic-facts h5 {
+        font-family: 'cairoreg';
+        font-size: 12pt;
+        padding: 6% 4%;
+        background: #222;
+        color: rgb(252, 186, 46);
+        margin-bottom: 0;
+        border-bottom: 1px solid;
+}
+
+.about .list-links ul {
+        padding: 0;
+}
+
+.about .list-links ul li {
+        list-style: none;
+        background-color: rgba(0, 0, 0, 0.01);
+        cursor: pointer;
+        transition: .2s all ease-in-out;
+}
+
+.about .list-links ul li:hover {
+        background-color: rgb(34, 34, 34);
+}
+
+.about .list-links ul li a {
+        text-decoration: none;
+}
+
+.about .list-links ul .active {
+        background-color: #222;
+}
+
+.about .fullscreen-bg {}
+
+.about .fullscreen-bg .about_video {
+        width: 100%;
+        border-radius: 2px;
+}
+
+.department h2 {
+        font-family: 'azothin';
+        font-size: 40pt;
+        margin-bottom: 4%;
+}
+
+.department {
+        position: relative;
+        padding: 4%;
+}
+
+.department .department_all_content {
+        margin-bottom: 4%;
+}
+
+.department .department_card {
+        border: none;
+        border-radius: 2px;
+        box-shadow: 0 0 2px -1px rgba(0, 0, 0, 0.5);
+        transition: all ease-out 0.3s;
+}
+
+.department .department_card:hover {
+        background: #222;
+        color: #fff;
+}
+
+.department .department_card_img {
+        margin-bottom: 50px;
+}
+
+.department .round-img {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        position: absolute;
+        display: block;
+        top: 145px;
+        right: 35%;
+}
+
+.department .department_card_body {
+        position: relative;
+}
+
+.department .department_card_body span {
+        color: #cecece;
+        position: absolute;
+        display: inline-block;
+        top: -10%;
+        right: 30%;
+        font-family: 'cairoreg';
+}
+
+.department .department_card .department_card_title {
+        color: #00adef;
+        margin: 0;
+        font-family: 'cairosemi';
+        margin-bottom: 2%;
+}
+
+.department .department_card .department_card_text {
+        font-size: 10pt;
+        font-family: 'cairoreg';
+        text-align: justify;
+        text-align-last: center;
+}
+
+.department .department_nav_tabs {
+        border: none;
+}
+
+.department .department_nav_tabs .department_item:first-of-type {
+        background-color: rgb(255, 255, 255);
+        width: 24%;
+        border-radius: 2px;
+}
+
+.department .department_nav_tabs .department_item {
+        background-color: rgba(0, 0, 0, 0.04);
+        width: 24.5%;
+        margin-right: 0.5%;
+}
+
+.department .department_nav_tabs .department_item.show .department_link, .department_nav_tabs .department_link {
+        color: #000;
+        text-align: center;
+        transition: all ease-out 0.3s;
+        font-family: 'changamd';
+}
+
+.department .department_nav_tabs .department_item .department_link i {
+        display: inline-block;
+        margin-right: 4%;
+}
+
+.department .department_nav_tabs .department_item.show .department_link, .department_nav_tabs .department_link.active {
+        border: none;
+        border-top: 3px solid #ffc700;
+        border-radius: 0;
+}
+
+.department .tab-content .description {
+        margin-left: 0 !important;
+        margin-right: 0 !important;
+        margin-top: 50px
+}
+
+.department .tab-content .description h5 {
+        font-family: 'azoreg';
+        font-size: 26pt;
+        margin-bottom: 4%;
+}
+
+.department .tab-content .description p {
+        font-family: 'cairolight';
+        text-align: justify;
+        line-height: 2;
+        padding: 2%;
+        background: rgba(0, 0, 0, 0.01);
+        border-radius: 2px;
+        margin-bottom: 4%;
+}
+
+.department .tab-content .description .learning-outcomes ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+}
+
+.department .tab-content .description .learning-outcomes ul li {
+        font-family: 'cairoreg';
+        padding: 1%;
+        margin-bottom: 1%;
+        background: rgba(0, 0, 0, 0.01);
+        border-radius: 2px;
+        width: 80%;
+}
+
+.department .tab-content .description .course-features {
+        border-left: 1px solid rgb(245, 245, 245);
+        padding-left: 10%;
+}
+
+.department .tab-content .description .course-features h5 {
+        font-size: 25px;
+        margin-bottom: 20px;
+}
+
+.department .tab-content .description .course-features ul li {
+        border-bottom: 1px solid rgba(0, 0, 0, 0.05);
+        position: relative;
+        padding: 6% 0;
+        font-family: 'cairosemi';
+}
+
+.department .tab-content .description .course-features ul li i {
+        color: #fcba2e;
+        display: inline-block;
+        margin-right: 4%;
+}
+
+.department .tab-content .description .course-features ul li span {
+        color: #fcba2e;
+        position: absolute;
+        right: 4%;
+        top: 32%;
+        display: inline-block;
+}
+
+/* ///// ///// ///// ///// /////  //-- Hazem Ibrahim Style --//  ///// ///// ///// ///// /////  */
